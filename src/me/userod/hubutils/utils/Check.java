@@ -43,9 +43,17 @@ public class Check {
 			return false;
 		} else return true;
 	}
+	
 	public static boolean Damage() {
 		if(config.getBoolean("disable-Environmental-Damage") == false) {
 			return false;
 		} else return true;
 	}
+
+	public static boolean foodLoss() {
+		if(config.getBoolean("disable-food-loss") == false) {
+			return false;
+		} else return true;
+	}
+	
 }

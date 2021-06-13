@@ -21,6 +21,7 @@ import me.userod.hubutils.listeners.doublejump;
 import me.userod.hubutils.listeners.hideplayers;
 import me.userod.hubutils.listeners.launchpad;
 import me.userod.hubutils.listeners.nodamage;
+import me.userod.hubutils.listeners.nofoodloss;
 import me.userod.hubutils.listeners.worldprotection;
 
 
@@ -62,6 +63,7 @@ public class HubUtils extends JavaPlugin{
 		addListener(new nodamage());
 		addListener(new worldprotection());
 		addListener(new damage());
+		addListener(new nofoodloss());
 
 		return Listeners;
 	}

@@ -8,3 +8,4 @@ no-PvP: true
 hide-players: true
 protect-world: true #No Block Destruction/Placing
 disable-Environmental-Damage: true #Fall Damage, Cactus Damage, Explosion Damage, etc...
+disable-food-loss: true

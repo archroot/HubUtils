@@ -1,6 +1,6 @@
 name: HubUtils
 author: UseRod
-version: 0.1
+version: 0.2
 main: me.userod.hubutils.HubUtils
 commands:
   HubUtils:
