@@ -1,0 +1,7 @@
+name: HubUtils
+author: UseRod
+version: 0.1
+main: me.userod.hubutils.HubUtils
+commands:
+  HubUtils:
+    aliases: [hu, h, hubu, hutils, pornhub]
